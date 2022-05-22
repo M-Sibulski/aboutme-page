@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  color: #4C4C6D;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background: #FFE194;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5vw 0 5vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 40px;
+}
+
+header img {
+  height: 10em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+  border-style: solid;
+  border-width: 1em;
+  border-color: #FFE194;
+  position: relative;
+  top: 5em;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  -webkit-transition: -webkit-clip-path 1s ease-in-out 0.2s;
+  transition: -webkit-clip-path 1s ease-in-out 0.2s;
+  transition: clip-path 1s ease-in-out 0.2s;
+  transition: clip-path 1s ease-in-out 0.2s, -webkit-clip-path 1s ease-in-out 0.2s;
+}
+
+header nav {
+  width: 100%;
+}
+
+header nav ul {
+  margin-top: 1em;
+  text-align: right;
+}
+
+header nav ul a {
+  padding: 1em 2em;
+}
+
+header:hover img {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+header:in-range img {
+  visibility: visible;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background: #4C4C6D;
+  color: #FFE194;
+}
+
+main {
+  background: #E8F6EF;
+  padding: 5em 0;
+  text-align: center;
+}
+
+main div {
+  position: relative;
+}
+
+main div h1 {
+  font-family: 'Freestyle Script';
+  font-size: 4rem;
+  margin: 0;
+}
+
+main div h1.mowdisio {
+  display: none;
+  top: 0;
+}
+
+main div:hover h1.mauricio {
+  display: none;
+}
+
+main div:hover h1.mowdisio {
+  display: block;
+}
+
+p.Web-Designer {
+  position: relative;
+  top: -1em;
+  margin: 0;
+}
+
+section {
+  background: #E8F6EF;
+  padding: 2em 5vw;
+}
+
+section p {
+  margin-top: 3vh;
+  width: 45vw;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+section .right {
+  margin: 3vh 0 3vh auto;
+}
+
+a.link {
+  text-decoration: none;
+  color: #4C4C6D;
+  background: #FFE194;
+  border-radius: 0.5em;
+  padding: 0.3em;
+}
+
+.Green1 {
+  background: #E8F6EF;
+}
+
+.Green2 {
+  background: #B8DFD8;
+}
+
+h2 {
+  margin: 0;
+}
+
+footer {
+  background: #B8DFD8;
+  padding: 1em 5vw;
+}
+
+footer aside {
+  position: relative;
+  float: right;
+  top: -5.2em;
+  width: 9em;
+  text-align: right;
+  display: block;
+}
+
+footer aside a {
+  padding: 0;
+  line-height: 2.5;
+}
+/*# sourceMappingURL=styles.css.map */
